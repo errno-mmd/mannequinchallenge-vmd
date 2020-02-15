@@ -1,5 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
 
 pred_depth = np.loadtxt("E:/MMD/MikuMikuDance_v926x64/Work/201805_auto/04/yoiyoi/yoiyoi_edit_20191110_124137/yoiyoi_edit_json_20191111_161727_depth/depth/depth_pred/pred_000000000000.txt")
 
