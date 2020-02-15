@@ -8,6 +8,8 @@ import copy
 import sys
 import re
 from matplotlib import pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
 import imageio
 from collections import Counter
 
